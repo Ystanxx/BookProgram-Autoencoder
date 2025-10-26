@@ -1,0 +1,52 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 数据文件
+data/*.npy
+data/*.csv
+data/*.txt
+
+# 模型文件
+saved_models/*.pth
+saved_models/*.pt
+
+# 结果文件
+results/*.png
+results/*.jpg
+results/*.json
+results/*.txt
+results/*.npy
+
+# 日志文件
+logs/*.log
+logs/*.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+temp/
+tmp/
+
